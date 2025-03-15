@@ -1,3 +1,14 @@
+/* ✅ General Mobile Optimizations */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
 /* ✅ Header Styling */
 .header {
     display: flex;
@@ -183,9 +194,8 @@ h1:hover {
     cursor: pointer;
 }
 
-/* ✅ Make the Design Mobile Responsive */
+/* ✅ Improved Mobile-Friendly Adjustments */
 @media screen and (max-width: 768px) {
-    /* Adjust Header */
     .header {
         flex-direction: column;
         align-items: center;
